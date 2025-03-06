@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: relative;
+    background-image: url(./background.PNG);
+    
+    height: 600px;
+    overflow-y: hidden ;
+}
+h1{
+    text-align: center;
+}
+ul li{
+    display: inline;
+}
+ul{
+    background-color: rgb(5, 4, 5);
+    color: white;
+    padding: 15px;
+    font-family: sans-serif;
+text-align: center;
+padding-right: 80px;
+
+}
+ul:hover{
+  background-color:black;  
+  color: white;
+}
+li:hover{
+    font-weight: bold;
+    border-bottom: 3px solid;
+    cursor: pointer;
+    color: gold;
+
+}
+img{
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    height: 90px;
+    left: 30px;
+    bottom: 530px;
+}
+input{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    border-radius: 50px;
+    width: 500px;
+    height: 30px;
+}
+.one{
+    position: absolute;
+    left: 1200px;
+    bottom: 560px;
+border-radius:50px ;    
+border: 2px solid white;
+font-family: sans-serif;
+background-color: gold;
+height: 30px;
+width: 70px;
+}
+.two{
+    position: absolute;
+    left: 1100px;
+    bottom: 560px;
+border-radius:50px ;    
+border: 2px solid white;
+font-family: sans-serif;
+background-color: gold;
+height: 30px;
+width: 70px;
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    border:  2px solid gold;
+    background-color: white;
+    box-shadow: gold 5px;
+}
+div{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+div:hover{
+    color: gold;
+
+}
+h1{
+    font-size: 100px;
+    text-align: center ;
+}
+h2{
+    font-size: 50px;
+    text-align: center ;
+
+}
+.image{
+    position: absolute;
+    top: 1px;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+}
